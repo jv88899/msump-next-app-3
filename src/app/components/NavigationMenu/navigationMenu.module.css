@@ -22,6 +22,10 @@
   width: var(--menu-icon-size);
 }
 
+.menu-item:last-child {
+  display: none;
+}
+
 .menu-item-title {
   display: none;
 }
