@@ -5,6 +5,7 @@ import {
   FaItunesNote,
   FaComment,
   FaUserCircle,
+  FaHashtag,
 } from "react-icons/fa";
 import styles from "./navigationMenu.module.css";
 
@@ -41,6 +42,12 @@ export default function NavigationMenu() {
             <FaUserCircle className={styles["menu-icon"]} />
           </div>
           <div className={styles["menu-item-title"]}>Profile</div>
+        </Link>
+        <Link href="/community" className={styles["menu-item"]}>
+          <div>
+            <FaHashtag className={styles["menu-icon"]} />
+          </div>
+          <div className={styles["menu-item-title"]}>Community</div>
         </Link>
       </div>
     </nav>

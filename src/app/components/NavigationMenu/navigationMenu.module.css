@@ -2,6 +2,7 @@
   --menu-icon-size: 26px;
 
   background-color: var(--pink-background);
+  border-top: 1px solid var(--pink-paragraph);
   bottom: 0;
   height: 50px;
   position: fixed;
@@ -27,6 +28,7 @@
 
 @media (min-width: 500px) {
   .nav-wrapper {
+    border: none;
     left: 0;
     height: 100vh;
     top: 0;
