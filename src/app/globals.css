@@ -5,11 +5,11 @@
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
-  --pink-background: #fec7d7;
-  --pink-headline: #0e172c;
-  --pink-paragraph: #0e172c;
-  --pink-button: #0e172c;
-  --pink-button-text: #fffffe;
+  --primary-background: #fec7d7;
+  --primary-headline: #0e172c;
+  --primary-paragraph: #0e172c;
+  --primary-button: #0e172c;
+  --primary-button-text: #fffffe;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -53,12 +53,12 @@
 
 html,
 body {
-  background-color: var(--pink-background);
   max-width: 100vw;
   overflow-x: hidden;
 }
 
 body {
+  background-color: var(--primary-background);
 }
 
 a {
