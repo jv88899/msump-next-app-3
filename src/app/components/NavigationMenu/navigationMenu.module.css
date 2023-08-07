@@ -46,6 +46,10 @@
     margin-top: 35px;
     width: 60px;
   }
+
+  .menu-item:last-child {
+    display: inherit;
+  }
 }
 
 @media (min-width: 850px) {

@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import styles from "./layout.module.css";
 import NavigationMenu from "@/app/components/NavigationMenu/NavigationMenu";
+import Community from "@/app/components/Community/Community";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,8 +17,8 @@ export default function RootLayout({ children }) {
         <div className={styles.wrapper}>
           <div className={styles["inner-wrapper"]}>
             <NavigationMenu />
-            <div>{children}</div>
-            <div>Community</div>
+            <div className={styles["child-wrapper"]}>{children}</div>
+            <Community />
           </div>
         </div>
       </body>

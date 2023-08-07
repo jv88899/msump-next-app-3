@@ -17,7 +17,7 @@ export default function NavigationMenu() {
           <div>
             <FaHome className={styles["menu-icon"]} />
           </div>
-          <div></div>
+          <div className={styles["menu-item-title"]}>Home</div>
         </Link>
         <Link href="/discover" className={styles["menu-item"]}>
           <div>
